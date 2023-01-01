@@ -1,0 +1,199 @@
+
+
+
+/* title section */
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;   
+    font-weight: bold;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    line-height: 1.2;   
+
+}
+.col-lg-6{
+    margin-bottom: 3rem;
+}
+
+
+
+
+/* navigation bar */
+
+.container-fluid{
+    padding: 3% 12% 0 12%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Ubuntu";
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(233, 233, 227);
+}
+.nav-link:hover,.navbar-brand:hover{
+    color: black;
+}
+
+
+/* download buttons */
+
+.download-btn{
+    margin: 2rem 2rem 0 0;
+}
+
+/* title image */
+
+.title-img{
+    width:50%;
+    transform: rotate(15deg);
+}
+
+.image{
+    text-align: center;
+}
+
+
+/* features */
+
+#features{
+    padding:5% 12% 3% 12%;
+}
+.col-lg-4{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+h3.feature-font{
+    font-family: "Ubuntu";
+    font-weight: 600;
+    color: black;
+}
+p.feature-font{
+    font-family: "Ubuntu";
+    font-weight: 400;
+    color: rgb(143, 136, 136);
+}
+
+/* feature icons */
+
+.feature-icon{
+    color: #ff4c68;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.feature-icon:hover{
+    color: black;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    background-color: #ef8172;
+    color:white;
+    text-align: center;
+}
+.testimonial-img{
+    width:10%;
+    border-radius: 100%;
+    margin: 3rem 2rem 2rem 2rem;
+}
+
+/* press section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 2rem;
+}
+.press-img{
+    width: 16%;
+    padding: 2% 2% 4% 2%;
+}
+.carousel-item{
+    padding: 3% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 3% 9%;
+    text-align: center;
+}
+.card-header{
+    background-color: #ef8172;
+}
+.cards{
+    padding: 3rem 3rem;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.price-btn:hover{
+    background-color:#ef8172;
+    color: black;
+}
+
+/* cta section */
+
+#cta{
+    background-color:#fd7563;
+    color: white;
+    text-align: center;
+    padding: 5% 12%;
+}
+.cta-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    line-height: 1.2;
+    /* margin-bottom: 4rem; */
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    line-height: 3.5;
+    margin: 4%;
+}
+
+.footer-icon{
+    margin: 15px 5px;
+}
+.footer-icon:hover{
+    cursor: pointer;
+    color:#888484
+}
+
+@media (max-width: 992px)
+{
+    .col-lg-6{
+        text-align: center;
+    }
+    .title-img{
+        width:60%;
+        transform: rotate(0deg);
+    }
+    .download-btn{
+        margin: 6rem 2rem 0 0;
+    }
+}
